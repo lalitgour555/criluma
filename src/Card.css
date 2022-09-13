@@ -1,0 +1,27 @@
+.cpleft{
+padding-left: 1rem;
+}
+.cpright{
+    padding-right: 1rem;
+}
+.chrcolor{
+    background: #00A6DB;
+}
+.mt-16vh{
+    margin-top: 16vh;
+}
+.mb-4vh{
+    margin-bottom: 4vh;
+}
+.br{
+    border-radius: 0%;
+}
+.desbgcolor{
+    background: #F5F5F5;;
+}
+
+.rectangleslide{
+    position: absolute;
+    margin: -1px;
+
+}

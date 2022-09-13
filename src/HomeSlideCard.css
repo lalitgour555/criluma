@@ -1,0 +1,22 @@
+.project-card {
+  /* margin: 0.5em; */
+  padding: 1%;
+  /* height: 350px; */
+  /* width: 300px; */
+  position: relative;
+  overflow: hidden;
+}
+
+.achievement-label {
+  position: absolute;
+  width: 284px;
+  padding: 0.2rem 66px;
+  box-sizing: border-box;
+  background-color: #00A6DB;
+  transform: rotateZ(-45deg);
+  top: 0;
+  left: 0;
+  transform-origin: 52px 101px;
+  text-align: center;
+  line-height: 16px;
+}

@@ -1,0 +1,17 @@
+#homeislands{
+    font-size: 2rem;
+}
+
+.pt-1{
+padding-top: 1.2rem;
+}
+.bgImg{
+    background-image: url("../public/image/3.png");
+    background-repeat: no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+
+}

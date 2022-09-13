@@ -1,0 +1,35 @@
+.ml-24{
+    margin-left: 24rem;
+}
+.w-33{
+    width: 33%;
+}
+.bg-nav{
+    background: #00A6DB;}
+    .tc-nav{
+        color: #00A6DB;}
+    .bg-nav1{
+        background: #F5F5F5;
+    }
+   
+    .pabs{
+        position: absolute;
+    }
+    .flex-end{
+        justify-content: flex-end;
+    }
+    .br-alblu{
+        border: aliceblue;
+    }
+    .bt-2{
+        border-top: 0.2rem solid #00A6DB;
+    }
+    .f-6{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .divShadow{
+        background: rgba(255, 255, 255, 0.34);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 10px;
+    }
