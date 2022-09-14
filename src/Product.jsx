@@ -250,11 +250,12 @@ const Product = () => {
                   <td>
                     <i className="bi bi-check2 ptcolor pwatchi"></i>Bar
                   </td>
+      
                   <td>
                     <i className="bi bi-check2 ptcolor pwatchi"></i>Ironing service{" "}
                     <a href="" className="tc-nav textstynone">
                       for a fee
-                    </a>{" "}
+                    </a>
                   </td>
                 </tr>
                 <tr>
@@ -272,7 +273,7 @@ const Product = () => {
                     <i className="bi bi-check2 ptcolor pwatchi"></i>Dry wash{" "}
                     <a href="" className="tc-nav textstynone">
                       for a fee
-                    </a>{" "}
+                    </a>
                   </td>
                 </tr>
                 <tr>
