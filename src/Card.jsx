@@ -134,8 +134,8 @@ const Card = () => {
         </div>
         <HomeSlideCard/>
 
-<div className=' p-2'>
-    <h3>POPULAR DESTINATIONS</h3>
+<div className='  p-2'>
+    <h1 className='h1'>POPULAR DESTINATIONS</h1>
     <p>Browse through our most popular tours!</p>
 </div>
 

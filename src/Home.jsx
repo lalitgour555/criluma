@@ -251,7 +251,7 @@ const Home = () => {
         </div>
         <Card />
         <div className=" text-color p-4">
-          <h1>REVIEWS</h1>
+          <h1 className="h1">REVIEWS</h1>
           <p>What do you think of us</p>
           <div className="progress d-inline-flex proghe" style={{width:"rem"}}>
   <div className="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">

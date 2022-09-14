@@ -13,7 +13,7 @@ const CrilumyPicture = () => {
 <div className="row  p-4">
      <div className="card text-color desbgcolor  ">
     </div> 
-    <div className="col-sm-3 m-5 p-1  caResp">
+    <div className="col-sm-3 px-sm-4 p-1  caResp">
           <div className="card text-color b-none ">
             <div className="card-body p-0">
             

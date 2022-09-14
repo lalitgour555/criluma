@@ -11,7 +11,7 @@ const CrilumyFriends = () => {
       <div className="row  p-4">
      <div className="card text-color desbgcolor  ">
     </div> 
-    <div className="col-sm-3 m-5 p-1  caResp">
+    <div className="col-sm-3 ps-sm-4 p-1  caResp">
           <div className="card text-color b-none ">
             <div className="card-body p-0">
             
@@ -114,7 +114,7 @@ const CrilumyFriends = () => {
 
         <div className="col-sm-8 caResp container p-1 ">
       <div className="row   ">
-  <div className="row  ">
+  <div className="row px-sm-4  ">
     <div className=" col-sm p-2  ">
   
     
@@ -126,7 +126,7 @@ const CrilumyFriends = () => {
     </div>
     <div className=" col-sm p-2 ">
       <div className='d-flex'>
-    <div className="input-group mb-3">
+    <div className="input-group  mb-3">
   <select className="form-select text-color" id="inputGroupSelect01">
     <option  selected>TYPO OF TRAVELER</option>
     <option value="1">One</option>
@@ -151,7 +151,7 @@ const CrilumyFriends = () => {
   
   </div> 
     
-     <div className="text-right ml-2">
+     <div className="text-right ">
                 <button
                     type="button"
                     className="btn btn-primary btn-lg br-none pbcolor m-2"

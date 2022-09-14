@@ -7,7 +7,7 @@ const CrilumyHeader = () => {
          <div className="row  p-4">
      <div className="card text-color desbgcolor  ">
     </div> 
-    <div className="col-sm-4 m-1 px-5  caResp">
+    <div className="col-sm-4 m-1 px-sm-4  caResp">
           <div className="card text-color b-none ">
             <div className="card-body p-0">
             
