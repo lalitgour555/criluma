@@ -2,15 +2,11 @@ import React from "react";
 
 const Offer = () => {
   return (
-    <div>
-     
-     
-       
-        
-          <img alt="img_alt_text"
+    <div>       
+          {/* <img alt="img_alt_text"
             style={{ width: "100%", height: "" }}
             src={process.env.PUBLIC_URL + "/image/Exclusive.png"}
-          />
+          /> */}
         <div className="m-4">
       
 <div className="m-4">
@@ -27,10 +23,10 @@ const Offer = () => {
       </div>
       <div className="container dCenter">
         <div className="row">
-           <div className="col-sm-4  mb-2">
-          <div className="card text-color " >
+<div className="col-sm-4   mb-4">
+          <div className="card text-color bg-nav1 " >
             <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c1.png"} />
-            <div className="card-body ">
+            <div className="card-body  ">
               <h3 className="text-left m-0 h1 ">Torre del mar</h3>
               <p className="text-left ">Isole Baleari - Spagna</p>
        
@@ -72,11 +68,11 @@ const Offer = () => {
             </div>
           </div>
           </div> 
-<div className="col-sm-4  mb-2">
-          <div className="card text-color " >
+<div className="col-sm-4  mb-4">
+          <div className="card text-color bg-nav1 " >
             <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c2.png"} />
             <div className="card-body ">
-              <h3 className="text-left m-0 h1">Torre del mar</h3>
+              <h3 className="text-left m-0 h1">Playa De Palma</h3>
               <p className="text-left ">Isole Baleari - Spagna</p>
            
             <div className="d-flex ">
@@ -102,7 +98,7 @@ const Offer = () => {
                  
                   <a href="" className="text-color f-6">
                     {" "}
-                    € 5.146,50
+                    € 2.024,76
                   </a>{" "}
                 </p>
               </div>
@@ -117,11 +113,101 @@ const Offer = () => {
             </div>
           </div>
           </div>
-<div className="col-sm-4  mb-2">
-          <div className="card text-color " >
+<div className="col-sm-4   mb-4">
+          <div className="card text-color  bg-nav1" >
             <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c3.png"} />
             <div className="card-body ">
-              <h3 className="text-left m-0 h1">Torre del mar</h3>
+              <h3 className="text-left m-0 h1">Baia De Bahas</h3>
+              <p className="text-left ">Isole Baleari - Spagna</p>
+           
+            <div className="d-flex ">
+                  <i className="bi bi-clock-history  pwatchi"></i>
+                  <p>duration</p>
+                  <p>8 days 7 nights</p>
+                </div>
+
+                <div className=' col  text-left' >
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#FFFFFF"}}></i>
+<i className='fa fa-star ' style={{color:"#FFFFFF"}}></i>
+</div>
+<p className="text-left m-0">Prezzo per due persone</p>
+</div>
+            <hr className="bt-2" />
+            <div className="d-flex row">
+              <div id="" className="p-2 col">
+                <p>
+                  {" "}
+                 
+                  <a href="" className="text-color f-6">
+                    {" "}
+                    € 816,68
+                  </a>{" "}
+                </p>
+              </div>
+              <div className="text-right col">
+                <button
+                    type="button"
+                    className="btn btn-primary btn-lg br-none pbcolor m-2"
+                  >
+                    DETAILS
+                  </button>
+                </div>
+            </div>
+          </div>
+          </div>
+          <div className="col-sm-4   mb-4">
+          <div className="card text-color bg-nav1 " >
+            <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c1.png"} />
+            <div className="card-body  ">
+              <h3 className="text-left m-0 h1 ">Torre del mar</h3>
+              <p className="text-left ">Isole Baleari - Spagna</p>
+       
+            <div className="d-flex ">
+                  <i className="bi bi-clock-history pwatchi"></i>
+                  <p>duration</p>
+                  <p>8 days 7 nights</p>
+                </div>
+
+                <div className=' col-sm  text-left' >
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+</div>
+<p className="text-left m-0">Prezzo per due persone</p>
+</div>
+            <hr className="bt-2" />
+            <div className="d-flex row">
+              <div id="" className="p-2 col">
+                <p>
+                  {" "}
+                 
+                  <a href="" className="text-color f-6">
+                    {" "}
+                    € 5.146,50
+                  </a>{" "}
+                </p>
+              </div>
+              <div className="text-right col">
+                <button
+                    type="button"
+                    className="btn btn-primary btn-lg br-none pbcolor m-2"
+                  >
+                    DETAILS
+                  </button>
+                </div>
+            </div>
+          </div>
+          </div> 
+<div className="col-sm-4  mb-4">
+          <div className="card text-color bg-nav1 " >
+            <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c2.png"} />
+            <div className="card-body ">
+              <h3 className="text-left m-0 h1">Playa De Palma</h3>
               <p className="text-left ">Isole Baleari - Spagna</p>
            
             <div className="d-flex ">
@@ -147,7 +233,7 @@ const Offer = () => {
                  
                   <a href="" className="text-color f-6">
                     {" "}
-                    € 5.146,50
+                    € 2.024,76
                   </a>{" "}
                 </p>
               </div>
@@ -162,13 +248,103 @@ const Offer = () => {
             </div>
           </div>
           </div>
-<div className="col-sm-4  mb-2">
-          <div className="card text-color " >
-            <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c1.png"} />
+<div className="col-sm-4   mb-4">
+          <div className="card text-color  bg-nav1" >
+            <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c3.png"} />
             <div className="card-body ">
-              <h3 className="text-left m-0 h1">Torre del mar</h3>
+              <h3 className="text-left m-0 h1">Baia De Bahas</h3>
               <p className="text-left ">Isole Baleari - Spagna</p>
+           
+            <div className="d-flex ">
+                  <i className="bi bi-clock-history  pwatchi"></i>
+                  <p>duration</p>
+                  <p>8 days 7 nights</p>
+                </div>
+
+                <div className=' col  text-left' >
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#FFFFFF"}}></i>
+<i className='fa fa-star ' style={{color:"#FFFFFF"}}></i>
+</div>
+<p className="text-left m-0">Prezzo per due persone</p>
+</div>
+            <hr className="bt-2" />
+            <div className="d-flex row">
+              <div id="" className="p-2 col">
+                <p>
+                  {" "}
+                 
+                  <a href="" className="text-color f-6">
+                    {" "}
+                    € 816,68
+                  </a>{" "}
+                </p>
+              </div>
+              <div className="text-right col">
+                <button
+                    type="button"
+                    className="btn btn-primary btn-lg br-none pbcolor m-2"
+                  >
+                    DETAILS
+                  </button>
+                </div>
             </div>
+          </div>
+          </div>
+          <div className="col-sm-4   mb-4">
+          <div className="card text-color bg-nav1 " >
+            <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c1.png"} />
+            <div className="card-body  ">
+              <h3 className="text-left m-0 h1 ">Torre del mar</h3>
+              <p className="text-left ">Isole Baleari - Spagna</p>
+       
+            <div className="d-flex ">
+                  <i className="bi bi-clock-history pwatchi"></i>
+                  <p>duration</p>
+                  <p>8 days 7 nights</p>
+                </div>
+
+                <div className=' col-sm  text-left' >
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+</div>
+<p className="text-left m-0">Prezzo per due persone</p>
+</div>
+            <hr className="bt-2" />
+            <div className="d-flex row">
+              <div id="" className="p-2 col">
+                <p>
+                  {" "}
+                 
+                  <a href="" className="text-color f-6">
+                    {" "}
+                    € 5.146,50
+                  </a>{" "}
+                </p>
+              </div>
+              <div className="text-right col">
+                <button
+                    type="button"
+                    className="btn btn-primary btn-lg br-none pbcolor m-2"
+                  >
+                    DETAILS
+                  </button>
+                </div>
+            </div>
+          </div>
+          </div> 
+<div className="col-sm-4  mb-4">
+          <div className="card text-color bg-nav1 " >
+            <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c2.png"} />
+            <div className="card-body ">
+              <h3 className="text-left m-0 h1">Playa De Palma</h3>
+              <p className="text-left ">Isole Baleari - Spagna</p>
+           
             <div className="d-flex ">
                   <i className="bi bi-clock-history  pwatchi"></i>
                   <p>duration</p>
@@ -183,50 +359,7 @@ const Offer = () => {
 <i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 </div>
 <p className="text-left m-0">Prezzo per due persone</p>
-            <hr className="bt-2" />
-            <div className="d-flex row">
-              <div id="" className="p-2 col">
-                <p>
-                  {" "}
-                 
-                  <a href="" className="text-color f-6">
-                    {" "}
-                    € 5.146,50
-                  </a>{" "}
-                </p>
-              </div>
-              <div className="text-right col">
-                <button
-                    type="button"
-                    className="btn btn-primary btn-lg br-none pbcolor m-2"
-                  >
-                    DETAILS
-                  </button>
-                </div>
-            </div>
-          </div>
-          </div>
-<div className="col-sm-4  mb-2">
-          <div className="card text-color " >
-            <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c2.png"} />
-            <div className="card-body ">
-              <h3 className="text-left m-0 h1">Torre del mar</h3>
-              <p className="text-left ">Isole Baleari - Spagna</p>
-            
-            <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
-                  <p>duration</p>
-                  <p>8 days 7 nights</p>
-                </div>
-
-                <div className=' col text-left' >
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 </div>
-<p className="text-left m-0">Prezzo per due persone</p></div>
             <hr className="bt-2" />
             <div className="d-flex row">
               <div id="" className="p-2 col">
@@ -235,7 +368,7 @@ const Offer = () => {
                  
                   <a href="" className="text-color f-6">
                     {" "}
-                    € 5.146,50
+                    € 2.024,76
                   </a>{" "}
                 </p>
               </div>
@@ -250,27 +383,28 @@ const Offer = () => {
             </div>
           </div>
           </div>
-<div className="col-sm-4  mb-2">
-          <div className="card text-color " >
+<div className="col-sm-4   mb-4">
+          <div className="card text-color  bg-nav1" >
             <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c3.png"} />
             <div className="card-body ">
-              <h3 className="text-left m-0 h1 ">Torre del mar</h3>
+              <h3 className="text-left m-0 h1">Baia De Bahas</h3>
               <p className="text-left ">Isole Baleari - Spagna</p>
-            
+           
             <div className="d-flex ">
                   <i className="bi bi-clock-history  pwatchi"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
 
-                <div className=' col text-left' >
+                <div className=' col  text-left' >
 <i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 <i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 <i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#FFFFFF"}}></i>
+<i className='fa fa-star ' style={{color:"#FFFFFF"}}></i>
 </div>
-<p className="text-left m-0">Prezzo per due persone</p></div>
+<p className="text-left m-0">Prezzo per due persone</p>
+</div>
             <hr className="bt-2" />
             <div className="d-flex row">
               <div id="" className="p-2 col">
@@ -279,7 +413,7 @@ const Offer = () => {
                  
                   <a href="" className="text-color f-6">
                     {" "}
-                    € 5.146,50
+                    € 816,68
                   </a>{" "}
                 </p>
               </div>
@@ -294,20 +428,20 @@ const Offer = () => {
             </div>
           </div>
           </div>
-<div className="col-sm-4  mb-2">
-          <div className="card text-color " >
+          <div className="col-sm-4   mb-4">
+          <div className="card text-color bg-nav1 " >
             <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c1.png"} />
-            <div className="card-body ">
-              <h3 className="text-left m-0 h1">Torre del mar</h3>
+            <div className="card-body  ">
+              <h3 className="text-left m-0 h1 ">Torre del mar</h3>
               <p className="text-left ">Isole Baleari - Spagna</p>
-            
+       
             <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
+                  <i className="bi bi-clock-history pwatchi"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
 
-                <div className=' col text-left' >
+                <div className=' col-sm  text-left' >
 <i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 <i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 <i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
@@ -338,140 +472,7 @@ const Offer = () => {
                 </div>
             </div>
           </div>
-          </div>
-<div className="col-sm-4  mb-2">
-          <div className="card text-color " >
-            <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c2.png"} />
-            <div className="card-body ">
-              <h3 className="text-left m-0 h1">Torre del mar</h3>
-              <p className="text-left ">Isole Baleari - Spagna</p>
-            
-            <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
-                  <p>duration</p>
-                  <p>8 days 7 nights</p>
-                </div>
-
-                <div className=' col text-left' >
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-</div>
-<p className="text-left m-0">Prezzo per due persone</p></div>
-            <hr className="bt-2" />
-            <div className="d-flex row">
-              <div id="" className="p-2 col">
-                <p>
-                  {" "}
-                 
-                  <a href="" className="text-color f-6">
-                    {" "}
-                    € 5.146,50
-                  </a>{" "}
-                </p>
-              </div>
-              <div className="text-right col">
-                <button
-                    type="button"
-                    className="btn btn-primary btn-lg br-none pbcolor m-2"
-                  >
-                    DETAILS
-                  </button>
-                </div>
-            </div>
-          </div>
-          </div>
-<div className="col-sm-4  mb-2">
-          <div className="card text-color " >
-            <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c3.png"} />
-            <div className="card-body ">
-              <h3 className="text-left m-0 h1">Torre del mar</h3>
-              <p className="text-left ">Isole Baleari - Spagna</p>
-            
-            <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
-                  <p>duration</p>
-                  <p>8 days 7 nights</p>
-                </div>
-
-                <div className=' col text-left' >
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-</div>
-<p className="text-left m-0">Prezzo per due persone</p></div>
-            <hr className="bt-2" />
-            <div className="d-flex row">
-              <div id="" className="p-2 col">
-                <p>
-                  {" "}
-                 
-                  <a href="" className="text-color f-6">
-                    {" "}
-                    € 5.146,50
-                  </a>{" "}
-                </p>
-              </div>
-              <div className="text-right col">
-                <button
-                    type="button"
-                    className="btn btn-primary btn-lg br-none pbcolor m-2"
-                  >
-                    DETAILS
-                  </button>
-                </div>
-            </div>
-          </div>
-          </div>
-<div className="col-sm-4  mb-2">
-          <div className="card text-color " >
-            <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c1.png"} />
-            <div className="card-body ">
-              <h3 className="text-left m-0 h1 ">Torre del mar</h3>
-              <p className="text-left ">Isole Baleari - Spagna</p>
-            
-            <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
-                  <p>duration</p>
-                  <p>8 days 7 nights</p>
-                </div>
-
-                <div className=' col text-left' >
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
-</div>
-<p className="text-left m-0">Prezzo per due persone</p></div>
-            <hr className="bt-2" />
-            <div className="d-flex row">
-              <div id="" className="p-2 col">
-                <p>
-                  {" "}
-                 
-                  <a href="" className="text-color f-6">
-                    {" "}
-                    € 5.146,50
-                  </a>{" "}
-                </p>
-              </div>
-              <div className="text-right col">
-                <button
-                    type="button"
-                    className="btn btn-primary btn-lg br-none pbcolor m-2"
-                  >
-                    DETAILS
-                  </button>
-                </div>
-            </div>
-          </div>
-          </div>
-          
+          </div> 
         </div>
       </div>
 
