@@ -4,12 +4,7 @@ import ImageHover from "./ImageHover";
 const CrilumyProduct = () => {
   return (
     <div className="bg-inconme">
-      {/* <div className='d-flex'>
-        <img  className='w-33' src={process.env.PUBLIC_URL + '/image/I_345138 1.png'} />
-        <img className='w-33'  src={process.env.PUBLIC_URL + '/image/I_744513.png'} />
-        <img className='w-33'  src={process.env.PUBLIC_URL + '/image/I_744512.png'} />
-
-        </div> */}
+    
       <ImageHover />
 
       <div className="p-2 text-color bg-inconme">
@@ -27,29 +22,29 @@ const CrilumyProduct = () => {
       <div className="row container-fluid  p-4  b-color  ">
         <div className="col-sm-1"></div>
         <div className="col-sm-7 ml-3 pl-2">
-          <ul class="nav  nav-justified bg-nav">
-            <li class="nav-item">
-              <a class="nav-link active " aria-current="page" href="#">
+          <ul className="nav  nav-justified bg-nav">
+            <li className="nav-item">
+              <a className="nav-link active " aria-current="page" href="#">
                 Rooms
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link btncolor" href="#">
+            <li className="nav-item">
+              <a className="nav-link btncolor" href="#">
                 Restaurant/Bar
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link btncolor" href="#">
+            <li className="nav-item">
+              <a className="nav-link btncolor" href="#">
                 Activities/Services
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link btncolor " href="#">
+            <li className="nav-item">
+              <a className="nav-link btncolor " href="#">
                 Star prestige
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link btncolor " href="#">
+            <li className="nav-item">
+              <a className="nav-link btncolor " href="#">
                 Why to go
               </a>
             </li>
@@ -71,23 +66,23 @@ const CrilumyProduct = () => {
               dinner and overnight stay.
             </p>
           </div>
-          <div class="table-responsive ">
-            <table class="table text-left text-color">
+          <div className="table-responsive ">
+            <table className="table text-left text-color">
               <thead>
                 <tr>
                   <th scope="col">
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>General services
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>General services
                   </th>
                   <th scope="col">
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Indoor & outdoor
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Indoor & outdoor
                     services
                   </th>
                   <th scope="col">
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Catering
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Catering
                     services
                   </th>
                   <th scope="col">
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Cleaning
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Cleaning
                     services
                   </th>
                 </tr>
@@ -95,35 +90,35 @@ const CrilumyProduct = () => {
               <tbody>
                 <tr>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Common room / TV
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Common room / TV
                     area{" "}
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Outdoor
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Outdoor
                     furniture
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>On-site coffee
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>On-site coffee
                     shop
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Daily cleaning
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Daily cleaning
                     service
                   </td>
                 </tr>
                 <tr>
                   <td>
                     {" "}
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Air conditioning{" "}
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Air conditioning{" "}
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Solarium terrace
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Solarium terrace
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Bar
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Bar
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Ironing service{" "}
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Ironing service{" "}
                     <a href="" className="tc-nav textstynone">
                       for a fee
                     </a>{" "}
@@ -131,17 +126,17 @@ const CrilumyProduct = () => {
                 </tr>
                 <tr>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Entirely
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Entirely
                     non-smoking facility
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Terrace
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Terrace
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Restaurant
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Restaurant
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Dry wash{" "}
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Dry wash{" "}
                     <a href="" className="tc-nav textstynone">
                       for a fee
                     </a>{" "}
@@ -149,23 +144,23 @@ const CrilumyProduct = () => {
                 </tr>
                 <tr>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Heating
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Heating
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Garden
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Garden
                   </td>
                   <td></td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Laundry service
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Laundry service
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Possibility of
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Possibility of
                     packed lunch
                   </td>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Swimming pool
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Swimming pool
                   </td>
                   <td></td>
                   <td></td>
@@ -174,18 +169,18 @@ const CrilumyProduct = () => {
                 <tr>
                   <td>
                     {" "}
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Elevator
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Elevator
                   </td>
                   <td>
                     {" "}
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Gym
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Gym
                   </td>
                   <td></td>
                   <td></td>
                 </tr>
                 <tr>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>
                     Rooms / facilities for disabled guests
                   </td>
                   <td></td>
@@ -194,7 +189,7 @@ const CrilumyProduct = () => {
                 </tr>
                 <tr>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Room service
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Room service
                   </td>
                   <td></td>
                   <td></td>
@@ -202,7 +197,7 @@ const CrilumyProduct = () => {
                 </tr>
                 <tr>
                   <td>
-                    <i class="bi bi-check2 ptcolor pwatchi"></i>Room service
+                    <i className="bi bi-check2 ptcolor pwatchi"></i>Room service
                   </td>
                   <td></td>
                   <td></td>
@@ -213,17 +208,17 @@ const CrilumyProduct = () => {
           </div>
         </div>
         <div className="col-sm-4">
-          <div class="card br-none">
-            <div class="card-body p-3">
+          <div className="card br-none">
+            <div className="card-body p-3">
               <h1>€ 1.159,50</h1>
               <p className="m-0">√ Instant confirmation </p>
               <p className="m-0">√ Cancel up to 3 days</p>
               <p className="m-0">√ Best Price Guarantee</p>
-              {/* <img src={process.env.PUBLIC_URL + '/image/Rectangle 54.png'}  className="pabs img-fluid" style={{width:"100%"}}/> */}
+              {/* <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/Rectangle 54.png'}  className="pabs img-fluid" style={{width:"100%"}}/> */}
             </div>
             <a
               href="#"
-              class="btn btn-primary w-100 br-none p-0 m-0 pbcolor btcolor"
+              className="btn btn-primary w-100 br-none p-0 m-0 pbcolor btcolor"
             >
               Book Now
             </a>
@@ -236,9 +231,9 @@ const CrilumyProduct = () => {
           <h1 className="h1">YOUR SOLUTIONS</h1>
           <h4>A solution for every need</h4>
         </div>
-        <div class="progress d-inline-flex proghe" style={{ width: "rem" }}>
+        <div className="progress d-inline-flex proghe" style={{ width: "rem" }}>
           <div
-            class="progress-bar pbcolor  p-3"
+            className="progress-bar pbcolor  p-3"
             role="progressbar"
             aria-valuenow="0"
             aria-valuemin="0"
@@ -253,7 +248,7 @@ const CrilumyProduct = () => {
           </div>
         </div>
         <div className="table-responsive divShadow m-5 p-1">
-          <tbody class="table-group-divider">
+          <tbody className="table-group-divider">
             <tr className="b-none">
               <td className="align-middle border-right col-sm-3">
                 {" "}
@@ -298,7 +293,7 @@ const CrilumyProduct = () => {
                     src={process.env.PUBLIC_URL + "/image/airplane copia.png"}
                     className="p-2"
                   />
-                  <p>Dal 2022-10-23 al 2022-10-30 classe Y</p>
+                  <p>Dal 2022-10-23 al 2022-10-30 classNamee Y</p>
                   <div className="row">
                     <div className="col-sm-3 text-left">
                       <a href="">ANDATA:</a>
@@ -328,7 +323,7 @@ const CrilumyProduct = () => {
                   <h1 className="m-2">€ 1.159,50</h1>
                   <button
                     type="button"
-                    class="btn btn-primary br-none pbcolor m-2"
+                    className="btn btn-primary br-none pbcolor m-2"
                   >
                     ADD TO CART
                   </button>
@@ -343,18 +338,18 @@ const CrilumyProduct = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-4">
-            <div class="card text-color br-alblu" >
-              <img src={process.env.PUBLIC_URL + "/image/c1.png"} />
+            <div className="card text-color br-alblu" >
+              <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c1.png"} />
             </div>
           </div>
           <div className="col-sm-4">
-            <div class="card text-color br-alblu" >
-              <img src={process.env.PUBLIC_URL + "/image/c1.png"} />
+            <div className="card text-color br-alblu" >
+              <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c1.png"} />
             </div>
           </div>
           <div className="col-sm-4">
-            <div class="card text-color br-alblu" >
-              <img src={process.env.PUBLIC_URL + "/image/c1.png"} />
+            <div className="card text-color br-alblu" >
+              <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/image/c1.png"} />
             </div>
           </div>
         </div>

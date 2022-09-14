@@ -8,15 +8,15 @@ const Home = () => {
      
       <div
         id="carouselExampleCaptions"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="false"
       >
-         <div class="carousel-indicators">
+         <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -35,34 +35,31 @@ const Home = () => {
         </div> 
         <div>
           <button
-            class="carousel-control-prev"
+            className="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
           </button>
           <button
-            class="carousel-control-next"
+            className="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
           </button>
         </div>
         
          
            <div className="bgImg">
-            <div class=" d-md-block container p-4 btncolor rResp">
-            
-
-              
+            <div className=" d-md-block container p-4 btncolor rResp">
               <div >
                 <div className="d-flex">
-                <img src={process.env.PUBLIC_URL + "/icons/pin.png"} />
+                <img alt="img_alt_text" src={process.env.PUBLIC_URL + "/icons/pin.png"} />
                   <h3 className=""> Medagaskar</h3>
                 </div>
                 <h1 className="hxl text-left eResph1 ">
@@ -72,19 +69,19 @@ const Home = () => {
               <div className="container">
               <div className="row ">
                 <div className="col-sm-6 rRespow"> <div className="d-flex">
-                <i class="bi bi-clock-history pwatchi"></i>
+                <i className="bi bi-clock-history pwatchi"></i>
                 <p>duration</p>
                 <p>8 days 7 nights</p>
               </div>
              
               <button
-                    class="pbcolor br-none f-left btncolor h1"
+                    className="pbcolor br-none f-left btncolor h1"
                     type="button"
                   >
                     € 5.146,50
                   </button>
               </div>
-                <img
+                <img alt="img_alt_text"
               style={{ width: "15.5rem", height: "9rem" }}
               src={process.env.PUBLIC_URL + "/icons/redtext.png"}
             />                           
@@ -96,16 +93,16 @@ const Home = () => {
               >
                 <div className="row">
                   <div className="col-sm-4">
-                    <div class="input-group mb-3">
+                    <div className="input-group mb-3">
                       <input
                         type="text"
-                        class="form-control b-none"
+                        className="form-control b-none"
                         placeholder="TIPOLOGIA"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                       />
-                      <span class="input-group-text b-color">
-                        <img
+                      <span className="input-group-text b-color">
+                        <img 
                           style={{
                             width: "15px",
                             height: "15px",
@@ -116,15 +113,15 @@ const Home = () => {
                         />
                       </span>
                     </div>
-                     <div class="input-group mb-3">
+                     <div className="input-group mb-3">
                       <input
                         type="text"
-                        class="form-control b-none"
+                        className="form-control b-none"
                         placeholder="PARTENZA"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                       />
-                      <span class="input-group-text b-color">
+                      <span className="input-group-text b-color">
                         <img
                           style={{
                             width: "15px",
@@ -138,15 +135,15 @@ const Home = () => {
                     </div> 
                   </div>
                   <div className="col-sm-4">
-                    <div class="input-group mb-3">
+                    <div className="input-group mb-3">
                       <input
                         type="text"
-                        class="form-control b-none"
+                        className="form-control b-none"
                         placeholder="DESTINAZIONE"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                       />
-                      <span class="input-group-text b-color">
+                      <span className="input-group-text b-color">
                         <img
                           style={{
                             width: "15px",
@@ -158,15 +155,15 @@ const Home = () => {
                         />
                       </span>
                     </div>
-                    <div class="input-group mb-3">
+                    <div className="input-group mb-3">
                       <input
                         type="text"
-                        class="form-control b-none"
+                        className="form-control b-none"
                         placeholder="RITORNO"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                       />
-                      <span class="input-group-text b-color">
+                      <span className="input-group-text b-color">
                         <img
                           style={{
                             width: "15px",
@@ -180,15 +177,15 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col-sm-4">
-                    <div class="input-group mb-3">
+                    <div className="input-group mb-3">
                       <input
                         type="text"
-                        class="form-control b-none"
+                        className="form-control b-none"
                         placeholder="AEREOPORTO"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                       />
-                      <span class="input-group-text b-color">
+                      <span className="input-group-text b-color">
                         <img
                           style={{
                             width: "15px",
@@ -200,15 +197,15 @@ const Home = () => {
                         />
                       </span>
                     </div>
-                    <div class="input-group mb-3">
+                    <div className="input-group mb-3">
                       <input
                         type="text"
-                        class="form-control b-none"
+                        className="form-control b-none"
                         placeholder="FASCIA DI PREZZO"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                       />
-                      <span class="input-group-text b-color">
+                      <span className="input-group-text b-color">
                         <img
                           style={{
                             width: "15px",
@@ -222,9 +219,9 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div class="d-grid gap-2">
+                <div className="d-grid gap-2">
                   <button
-                    class="btn pbcolor btncolor "
+                    className="btn pbcolor btncolor "
                      style={{ background: "#00A6DB" }}
                     type="button"
                   >
@@ -243,9 +240,9 @@ const Home = () => {
           <h1 className="h1">OUR MOST POPULAR PACKAGES</h1>
           <p>Browse through our most popular tours!</p>
     
-<div class="progress d-inline-flex proghe" style={{width:"rem"}}>
-  <div class="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">
-  <img src={process.env.PUBLIC_URL + "/icons/r.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
+<div className="progress d-inline-flex proghe" style={{width:"rem"}}>
+  <div className="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">
+  <img  src={process.env.PUBLIC_URL + "/icons/r.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
   </div>
 </div>
 
@@ -256,35 +253,35 @@ const Home = () => {
         <div className=" text-color p-4">
           <h1>REVIEWS</h1>
           <p>What do you think of us</p>
-          <div class="progress d-inline-flex proghe" style={{width:"rem"}}>
-  <div class="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">
-  <img src={process.env.PUBLIC_URL + "/icons/r.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
+          <div className="progress d-inline-flex proghe" style={{width:"rem"}}>
+  <div className="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">
+  <img  src={process.env.PUBLIC_URL + "/icons/r.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
 
   </div>
 </div>
           <div className="row">
             <div className="col">
               {" "}
-              <div class="card b-none" style={{ width: "15rem" }}>
-                <div class="card-body">
+              <div className="card b-none" style={{ width: "15rem" }}>
+                <div className="card-body">
                   <div className="d-flex">
                     <div>
                       {" "}
                       <img
                         style={{ width: "3rem", height: "3rem" }}
                         src={process.env.PUBLIC_URL + "/image/3.png"}
-                        class="rounded-circle p-2"
+                        className="rounded-circle p-2"
                         alt="Cinque Terre"
                       />
                     </div>
                     <p className="p-2">Erica Delfine</p>
                   </div>
                   <div className=' col  text-left' >
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 
 </div>
                   <div>
@@ -302,26 +299,26 @@ const Home = () => {
             </div>
             <div className="col">
               {" "}
-              <div class="card b-none" style={{ width: "15rem" }}>
-                <div class="card-body">
+              <div className="card b-none" style={{ width: "15rem" }}>
+                <div className="card-body">
                   <div className="d-flex">
                     <div>
                       {" "}
                       <img
                         style={{ width: "3rem", height: "3rem" }}
                         src={process.env.PUBLIC_URL + "/image/3.png"}
-                        class="rounded-circle p-2"
+                        className="rounded-circle p-2"
                         alt="Cinque Terre"
                       />
                     </div>
                     <p className="p-2">Fabio Musicco</p>
                   </div>
                   <div className=' col  text-left' >
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 
 </div>
                   <div>
@@ -334,26 +331,26 @@ const Home = () => {
             </div>
             <div className="col">
               {" "}
-              <div class="card b-none" style={{ width: "15rem" }}>
-                <div class="card-body">
+              <div className="card b-none" style={{ width: "15rem" }}>
+                <div className="card-body">
                   <div className="d-flex">
                     <div>
                       {" "}
                       <img
                         style={{ width: "3rem", height: "3rem" }}
                         src={process.env.PUBLIC_URL + "/image/3.png"}
-                        class="rounded-circle p-2"
+                        className="rounded-circle p-2"
                         alt="Cinque Terre"
                       />
                     </div>
                     <p className="p-2">Donato Bertuccioli</p>
                   </div>
                   <div className=' col  text-left' >
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 
 </div>
                   <div>
@@ -366,26 +363,26 @@ const Home = () => {
             </div>
             <div className="col">
               {" "}
-              <div class="card b-none" style={{ width: "15rem" }}>
-                <div class="card-body">
+              <div className="card b-none" style={{ width: "15rem" }}>
+                <div className="card-body">
                   <div className="d-flex">
                     <div>
                       {" "}
                       <img
                         style={{ width: "3rem", height: "3rem" }}
                         src={process.env.PUBLIC_URL + "/image/3.png"}
-                        class="rounded-circle p-2"
+                        className="rounded-circle p-2"
                         alt="Cinque Terre"
                       />
                     </div>
                     <p className="p-2">Annarosa Giaccaglia</p>
                   </div>
                   <div className=' col  text-left' >
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#D9D9D9"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#D9D9D9"}}></i>
 
 </div>
                   <div>
@@ -398,26 +395,26 @@ const Home = () => {
             </div>
             <div className="col">
               {" "}
-              <div class="card b-none" style={{ width: "15rem" }}>
-                <div class="card-body">
+              <div className="card b-none" style={{ width: "15rem" }}>
+                <div className="card-body">
                   <div className="d-flex">
                     <div>
                       {" "}
                       <img
                         style={{ width: "15px", height: "15px" }}
                         src={process.env.PUBLIC_URL + "/image/3.png"}
-                        class="rounded-circle"
+                        className="rounded-circle"
                         alt="Cinque Terre"
                       />
                     </div>
                     <p>Silvia Standardi</p>
                   </div>
                   <div className=' col  text-left' >
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#D9D9D9"}}></i>
-<i class='fa fa-star ' style={{color:"#D9D9D9"}}></i>
-<i class='fa fa-star ' style={{color:"#D9D9D9"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#D9D9D9"}}></i>
+<i className='fa fa-star ' style={{color:"#D9D9D9"}}></i>
+<i className='fa fa-star ' style={{color:"#D9D9D9"}}></i>
 
 </div>
                   <div>
@@ -436,7 +433,7 @@ const Home = () => {
         <div className="textl-right p-2">
           <div className=" rounded-circle pbcolor pt-1 float-right" style={{width:"5rem" , height:"5rem"}}>
          
-          <img src={process.env.PUBLIC_URL + "/icons/chat.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
+          <img  src={process.env.PUBLIC_URL + "/icons/chat.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
            
           </div>
           </div>

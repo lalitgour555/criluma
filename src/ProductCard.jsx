@@ -4,30 +4,30 @@ const ProductCard = () => {
   return (
     <div className="row p-4 container    ">
       <div className="col-9 p-2">
-        <ul class="nav   nav-justified bg-nav">
-          <li class="nav-item ">
-            <a class="nav-link active " aria-current="page" href="#">
+        <ul className="nav   nav-justified bg-nav">
+          <li className="nav-item ">
+            <a className="nav-link active " aria-current="page" href="Rooms">
               Rooms
             </a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link btncolor" href="#">
+          <li className="nav-item">
+            <a className="nav-link btncolor" href="Restaurant">
               Restaurant/Bar
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link btncolor" href="#">
+          <li className="nav-item">
+            <a className="nav-link btncolor" href="Activities">
               Activities/Services
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link btncolor" href="#">
+          <li className="nav-item">
+            <a className="nav-link btncolor" href="Star">
               Star prestige
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link btncolor " href="#">
+          <li className="nav-item">
+            <a className="nav-link btncolor " href="Why">
               Why to go
             </a>
           </li>
@@ -48,8 +48,8 @@ const ProductCard = () => {
             arrival at our hotel in the Ancona area, dinner and overnight stay.
           </p>
         </div>
-        <div class="table-responsive ">
-          <table class="table text-color">
+        <div className="table-responsive ">
+          <table className="table text-color">
             <thead>
               <tr>
                 <th scope="col">General services</th>
@@ -71,7 +71,7 @@ const ProductCard = () => {
                 <td>Bar</td>
                 <td>
                   Ironing service{" "}
-                  <a href="" className="tc-nav">
+                  <a href="for a fee" className="tc-nav">
                     for a fee
                   </a>{" "}
                 </td>
@@ -82,7 +82,7 @@ const ProductCard = () => {
                 <td>Restaurant</td>
                 <td>
                   Dry wash{" "}
-                  <a href="" className="tc-nav">
+                  <a href=" for a fee" className="tc-nav">
                     for a fee
                   </a>{" "}
                 </td>
@@ -129,27 +129,27 @@ const ProductCard = () => {
         </div>
 
         <div className="container divShadow ">
-          <div class="d-flex">
+          <div className="d-flex">
             <div className="dCenter">
               <h3>CAMERA STANDARD S05</h3>
             </div>
-            <div class="vr"></div>
+            <div className="vr"></div>
             <div className="row ">
               <div className="d-flex">
                 <div className="col d-grid ">
-                  <a href="" className="textstynone">
+                  <a href=" Trattamento" className="textstynone">
                     Trattamento:
                   </a>
-                  <a href="" className="textstynone">
+                  <a href="Sistemazione" className="textstynone">
                     Sistemazione:
                   </a>
-                  <a href="" className="textstynone">
+                  <a href=" Arrivo" className="textstynone">
                     Arrivo:
                   </a>
-                  <a href="" className="textstynone">
+                  <a href=" Camera" className="textstynone">
                     Camera:
                   </a>
-                  <a href="" className="textstynone">
+                  <a href=" Max persone" className="textstynone">
                     Max persone:
                   </a>
                 </div>
@@ -163,16 +163,16 @@ const ProductCard = () => {
               </div>
               <p>Prodotto venduto a pacchetto</p>
             </div>
-            <div class="vr"></div>
+            <div className="vr"></div>
             <div>
               <img
                 src={process.env.PUBLIC_URL + "/image/airplane copia.png"}
                 className="p-2"
               />
-              <p>Dal 2022-10-23 al 2022-10-30 classe Y</p>
+              <p>Dal 2022-10-23 al 2022-10-30 classNamee Y</p>
               <div className="row">
                 <div className="col">
-                  <a href="">ANDATA:</a>
+                  <a href=" ANDATA">ANDATA:</a>
                 </div>
                 <div className="col">
                   <p>
@@ -183,7 +183,7 @@ const ProductCard = () => {
               </div>
               <div className="row">
                 <div className="col">
-                  <a href="">ANDATA:</a>
+                  <a href="ANDATA">ANDATA:</a>
                 </div>
                 <div className="col">
                   <p>
@@ -193,11 +193,11 @@ const ProductCard = () => {
                 </div>
               </div>
             </div>
-            <div class="vr"></div>
+            <div className="vr"></div>
             <div className="p-4">
               <h3>Volo + soggiorno</h3>
               <h1>€ 1.159,50</h1>
-              <button type="button" class="btn btn-primary br-none pbcolor">
+              <button type="button" className="btn btn-primary br-none pbcolor">
                 ADD TO CART
               </button>
             </div>
@@ -205,7 +205,7 @@ const ProductCard = () => {
         </div>
       </div>
       <div className="col-3 p-5 ">
-        <div class="card" style={{ width: "25rem" }}>
+        <div className="card" style={{ width: "25rem" }}>
           <h1>€ 1.159,50</h1>
           <p>
             √ Instant confirmation √ Cancel up to 3 days √ Best Price Guarantee
@@ -214,42 +214,42 @@ const ProductCard = () => {
             src={process.env.PUBLIC_URL + "/image/Rectangle 54.png"}
             className="pabs"
           />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="#" class="btn btn-primary w-100 br-none p-0 m-0">
+            <a href="Go somewhere" className="btn btn-primary w-100 br-none p-0 m-0">
               Go somewhere
             </a>
           </div>
         </div>
         <span
-          class="input-group-text b-color flex-end m-2"
+          className="input-group-text b-color flex-end m-2"
           style={{ width: "25rem" }}
         >
-          <div class="dropdown">
+          <div className="dropdown">
             <button
-              class="btn  dropdown-toggle"
+              className="btn  dropdown-toggle"
               type="button"
               id="dropdownMenuButton1"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             ></button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Action">
                   Action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Another action">
                   Another action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Something else here">
                   Something else here
                 </a>
               </li>
@@ -257,30 +257,30 @@ const ProductCard = () => {
           </div>
         </span>
         <span
-          class="input-group-text b-color flex-end m-2"
+          className="input-group-text b-color flex-end m-2"
           style={{ width: "25rem" }}
         >
-          <div class="dropdown">
+          <div className="dropdown">
             <button
-              class="btn  dropdown-toggle"
+              className="btn  dropdown-toggle"
               type="button"
               id="dropdownMenuButton1"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             ></button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Action">
                   Action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Another action">
                   Another action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Something else here">
                   Something else here
                 </a>
               </li>
@@ -288,30 +288,30 @@ const ProductCard = () => {
           </div>
         </span>
         <span
-          class="input-group-text b-color flex-end m-2"
+          className="input-group-text b-color flex-end m-2"
           style={{ width: "25rem" }}
         >
-          <div class="dropdown">
+          <div className="dropdown">
             <button
-              class="btn  dropdown-toggle"
+              className="btn  dropdown-toggle"
               type="button"
               id="dropdownMenuButton1"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             ></button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Action">
                   Action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Another action">
                   Another action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Something else here">
                   Something else here
                 </a>
               </li>
@@ -319,30 +319,30 @@ const ProductCard = () => {
           </div>
         </span>
         <span
-          class="input-group-text b-color flex-end m-2"
+          className="input-group-text b-color flex-end m-2"
           style={{ width: "25rem" }}
         >
-          <div class="dropdown">
+          <div className="dropdown">
             <button
-              class="btn  dropdown-toggle"
+              className="btn  dropdown-toggle"
               type="button"
               id="dropdownMenuButton1"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             ></button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Action">
                   Action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Another action">
                   Another action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="Something else here">
                   Something else here
                 </a>
               </li>
@@ -350,7 +350,7 @@ const ProductCard = () => {
           </div>
         </span>
         <span
-          class="input-group-text b-color flex-end m-2"
+          className="input-group-text b-color flex-end m-2"
           style={{ width: "25rem" }}
         >
           <img
@@ -364,7 +364,7 @@ const ProductCard = () => {
           />
         </span>
         <span
-          class="input-group-text b-color flex-end m-2"
+          className="input-group-text b-color flex-end m-2"
           style={{ width: "25rem" }}
         >
           <img
@@ -379,7 +379,7 @@ const ProductCard = () => {
         </span>
         <button
           type="button"
-          class="btn btn-secondary btn-lg m-2 br-none"
+          className="btn btn-secondary btn-lg m-2 br-none"
           style={{ width: "88vh" }}
         >
           Large button

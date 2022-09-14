@@ -4,30 +4,30 @@ const IncomingNav = ({data}) => {
   return (
     
          <div>
-              <ul class="nav  nav-justified pbcolor ">
-                <li class="nav-item ">
-                  <a class="nav-link active" aria-current="page" href="#">
+              <ul className="nav  nav-justified pbcolor ">
+                <li className="nav-item ">
+                  <a className="nav-link active" aria-current="page" href="#">
                     DAY 1
                   </a>
                 </li>
 
-                <li class="nav-item text-white">
-                  <a class="nav-link" href="#">
+                <li className="nav-item text-white">
+                  <a className="nav-link" href="#">
                     DAY 2
                   </a>
                 </li>
-                <li class="nav-item text-white">
-                  <a class="nav-link" href="#">
+                <li className="nav-item text-white">
+                  <a className="nav-link" href="#">
                     DAY 3
                   </a>
                 </li>
-                <li class="nav-item text-white">
-                  <a class="nav-link " href="#">
+                <li className="nav-item text-white">
+                  <a className="nav-link " href="#">
                     DAY 4
                   </a>
                 </li>
-                <li class="nav-item text-white">
-                  <a class="nav-link " href="#">
+                <li className="nav-item text-white">
+                  <a className="nav-link " href="#">
                     DAY 5
                   </a>
                 </li>

@@ -3,9 +3,9 @@ import React from 'react'
 const Wedding = () => {
   return (
     <div>
-      <div class="carousel-inner">
-    <div class="carousel-item active">
-    <img style={{ width:"100%" , height:""}}  src={process.env.PUBLIC_URL + '/image/offerta vacanze1.png'} />  
+      <div className="carousel-inner">
+    <div className="carousel-item active">
+    <img alt="img_alt_text" style={{ width:"100%" , height:""}}  src={process.env.PUBLIC_URL + '/image/offerta vacanze1.png'} />  
     </div>
 </div>
 
@@ -13,14 +13,14 @@ const Wedding = () => {
         <div className='container text-color p-4'>
             <h1>you're going to say yes</h1>
             <h3>Let our wedding travel specialist help you</h3>
-            <div class="progress d-inline-flex proghe" style={{width:"rem"}}>
-  <div class="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">
+            <div className="progress d-inline-flex proghe" style={{width:"rem"}}>
+  <div className="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">
   <img src={process.env.PUBLIC_URL + "/icons/r.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
 
   </div>
 </div>
             <div className='p-3'>
-            <img style={{ width:"100%" , height:""}}  src={process.env.PUBLIC_URL + '/image/image 21.png'} />  
+            <img alt="img_alt_text" style={{ width:"100%" , height:""}}  src={process.env.PUBLIC_URL + '/image/image 21.png'} />  
             </div>
             <div className='p-3'>
                 <p>Se il momento della scelta del viaggio si sta avvicinando e non sapete da che parte iniziare, ogni volta che viene fuori l’argomento c’è chi parla di una meta e chi parla di un’altra, chi preferisce prenotare tutto subito e chi invece vuole pensarci bene....il nostro staff è a vostra disposizione!
@@ -32,15 +32,15 @@ Un team di oltre 15 persone formate come sarti e sarte per cucirvi addosso il vi
               >
                 <div className="row">
                   <div className="col-sm-4">
-                    <div class="input-group mb-3">
+                    <div className="input-group mb-3">
                       <input
                         type="text"
-                        class="form-control b-none br-none"
+                        className="form-control b-none br-none"
                         placeholder="Name"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                       />
-                      <span class="input-group-text b-color">
+                      <span className="input-group-text b-color">
                         <img
                           style={{
                             width: "15px",
@@ -54,15 +54,15 @@ Un team di oltre 15 persone formate come sarti e sarte per cucirvi addosso il vi
                     </div>
                   </div>
                   <div className="col">
-                    <div class="input-group mb-3">
+                    <div className="input-group mb-3">
                       <input
                         type="text"
-                        class="form-control b-none br-none"
+                        className="form-control b-none br-none"
                         placeholder="Email"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                       />
-                      <span class="input-group-text b-color">
+                      <span className="input-group-text b-color">
                         <img
                           style={{
                             width: "15px",
@@ -76,15 +76,15 @@ Un team di oltre 15 persone formate come sarti e sarte per cucirvi addosso il vi
                     </div>
                   </div>
                   <div className="col">
-                    <div class="input-group mb-3">
+                    <div className="input-group mb-3">
                       <input
                         type="text"
-                        class="form-control b-none"
+                        className="form-control b-none"
                         placeholder="Phone"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                       />
-                      <span class="input-group-text b-color">
+                      <span className="input-group-text b-color">
                         <img
                           style={{
                             width: "15px",
@@ -98,9 +98,9 @@ Un team di oltre 15 persone formate come sarti e sarte per cucirvi addosso il vi
                     </div>
                   </div>
                 </div>
-                <div class="d-grid gap-2">
+                <div className="d-grid gap-2">
                   <button
-                    class="btn"
+                    className="btn"
                     style={{ background: "#00A6DB" }}
                     type="button"
                   >
@@ -143,26 +143,26 @@ Lista viaggi di nozze gratuita online e in agenzia con aggiornamenti in tempo re
           <div className="row p-5">
             <div className="col-sm">
               {" "}
-              <div class="card b-none" style={{ width: "14rem" }}>
-                <div class="card-body">
+              <div className="card b-none" style={{ width: "14rem" }}>
+                <div className="card-body">
                   <div className="d-flex">
                     <div>
                       {" "}
                       <img
                         style={{ width: "3rem", height: "3rem" }}
                         src={process.env.PUBLIC_URL + "/image/3.png"}
-                        class="rounded-circle p-2"
+                        className="rounded-circle p-2"
                         alt="Cinque Terre"
                       />
                     </div>
                     <p className="p-2">Erica Delfine</p>
                   </div>
                   <div className=' col  text-left' >
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 
 </div>
                   <div>
@@ -180,26 +180,26 @@ Lista viaggi di nozze gratuita online e in agenzia con aggiornamenti in tempo re
             </div>
             <div className="col-sm ">
               {" "}
-              <div class="card b-none" style={{ width: "14rem" }}>
-                <div class="card-body">
+              <div className="card b-none" style={{ width: "14rem" }}>
+                <div className="card-body">
                   <div className="d-flex">
                     <div>
                       {" "}
                       <img
                         style={{ width: "3rem", height: "3rem" }}
                         src={process.env.PUBLIC_URL + "/image/3.png"}
-                        class="rounded-circle p-2"
+                        className="rounded-circle p-2"
                         alt="Cinque Terre"
                       />
                     </div>
                     <p className="p-2">Fabio Musicco</p>
                   </div>
                   <div className=' col  text-left' >
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 
 </div>
                   <div>
@@ -212,26 +212,26 @@ Lista viaggi di nozze gratuita online e in agenzia con aggiornamenti in tempo re
             </div>
             <div className="col-sm ">
               {" "}
-              <div class="card b-none" >
-                <div class="card-body">
+              <div className="card b-none" >
+                <div className="card-body">
                   <div className="d-flex">
                     <div>
                       {" "}
                       <img
                         style={{ width: "3rem", height: "3rem" }}
                         src={process.env.PUBLIC_URL + "/image/3.png"}
-                        class="rounded-circle p-2"
+                        className="rounded-circle p-2"
                         alt="Cinque Terre"
                       />
                     </div>
                     <p className="p-2">Donato Bertuccioli</p>
                   </div>
                   <div className=' col  text-left' >
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
 
 </div>
                   <div>
@@ -244,26 +244,26 @@ Lista viaggi di nozze gratuita online e in agenzia con aggiornamenti in tempo re
             </div>
             <div className="col-sm ">
               {" "}
-              <div class="card b-none">
-                <div class="card-body">
+              <div className="card b-none">
+                <div className="card-body">
                   <div className="d-flex">
                     <div>
                       {" "}
                       <img
                         style={{ width: "3rem", height: "3rem" }}
                         src={process.env.PUBLIC_URL + "/image/3.png"}
-                        class="rounded-circle p-2"
+                        className="rounded-circle p-2"
                         alt="Cinque Terre"
                       />
                     </div>
                     <p className="p-2">Annarosa Giaccaglia</p>
                   </div>
                   <div className=' col  text-left' >
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#D9D9D9"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#D9D9D9"}}></i>
 
 </div>
                   <div>
@@ -276,26 +276,26 @@ Lista viaggi di nozze gratuita online e in agenzia con aggiornamenti in tempo re
             </div>
             <div className="col-sm ">
               {" "}
-              <div class="card b-none" >
-                <div class="card-body">
+              <div className="card b-none" >
+                <div className="card-body">
                   <div className="d-flex">
                     <div>
                       {" "}
                       <img
                         style={{ width: "15px", height: "15px" }}
                         src={process.env.PUBLIC_URL + "/image/3.png"}
-                        class="rounded-circle"
+                        className="rounded-circle"
                         alt="Cinque Terre"
                       />
                     </div>
                     <p>Silvia Standardi</p>
                   </div>
                   <div className=' col  text-left' >
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#00A6DB"}}></i>
-<i class='fa fa-star ' style={{color:"#D9D9D9"}}></i>
-<i class='fa fa-star ' style={{color:"#D9D9D9"}}></i>
-<i class='fa fa-star ' style={{color:"#D9D9D9"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#00A6DB"}}></i>
+<i className='fa fa-star ' style={{color:"#D9D9D9"}}></i>
+<i className='fa fa-star ' style={{color:"#D9D9D9"}}></i>
+<i className='fa fa-star ' style={{color:"#D9D9D9"}}></i>
 
 </div>
                   <div>

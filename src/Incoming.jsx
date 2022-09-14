@@ -18,9 +18,9 @@ const Incoming = () => {
     }
   return (
     <div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img alt="img_alt_text"
             style={{ width: "100%", height: "" }}
             src={
               process.env.PUBLIC_URL +
@@ -37,9 +37,9 @@ const Incoming = () => {
         <div className=" p-4">
           <h1 className="h1 ptcolor f-30">FROM MAY TO OCTOBER</h1>
           <p>4 NIGHTS / 5 DAYS</p>
-          <div class="progress d-inline-flex proghe" style={{width:"rem"}}>
-  <div class="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">
-  <img src={process.env.PUBLIC_URL + "/icons/r.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
+          <div className="progress d-inline-flex proghe" style={{width:"rem"}}>
+  <div className="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">
+  <img  src={process.env.PUBLIC_URL + "/icons/r.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
 
   </div>
 </div>
@@ -52,14 +52,14 @@ const Incoming = () => {
               <div className="col-sm-6  text-color">
                 <h3 className="">INDIVIDUAL PARTICIPATION FEES</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>ON A 2 PAX BASIS</p>
                 </div>
               </div>
               <div className="col-sm-6">
                 <h3>BASIC FEE - EURO 290</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>
                     The fee includes : nr. 4 nights half board in a double /
                     twin room; medical / baggage insurance.
@@ -72,7 +72,7 @@ const Incoming = () => {
               <div className="col-sm-6 text-color ">
                 <h3 className="">The rates do not include</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>
                     Meals not mentioned, drinks at the meals; admissions where
                     not specified and anything not mentioned under the heading
@@ -83,7 +83,7 @@ const Incoming = () => {
               <div className="col-sm-6">
                 <h3>SILVER FEE - EURO 410</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>
                     The fee includes : nr. 4 nights half board in a double /
                     twin room; medical / baggage insurance.
@@ -96,7 +96,7 @@ const Incoming = () => {
               <div className="col-sm-6 text-color">
                 <h3 className="">On request</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>
                     Single room supplement Optional insurance against
                     cancellation penalties
@@ -106,7 +106,7 @@ const Incoming = () => {
               <div className="col-sm-6">
                 <h3>GOLD FEE - EURO 550</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>
                     The fee includes : nr. 4 nights half board in a double /
                     twin room; the guided tour of the city of Ancona (entrance
@@ -123,30 +123,30 @@ const Incoming = () => {
             <hr />
 
             <div>
-              <ul class="nav  nav-justified pbcolor ">
-                <li class="nav-item ">
-                  <a class="nav-link active" aria-current="page" href="#">
+              <ul className="nav  nav-justified pbcolor ">
+                <li className="nav-item ">
+                  <a className="nav-link active" aria-current="page" href="DAY1">
                     DAY 1
                   </a>
                 </li>
 
-                <li class="nav-item text-white">
-                  <a class="nav-link" href="#">
+                <li className="nav-item text-white">
+                  <a className="nav-link" href="Day2">
                     DAY 2
                   </a>
                 </li>
-                <li class="nav-item text-white">
-                  <a class="nav-link" href="#">
+                <li className="nav-item text-white">
+                  <a className="nav-link" href="DAY3">
                     DAY 3
                   </a>
                 </li>
-                <li class="nav-item text-white">
-                  <a class="nav-link " href="#">
+                <li className="nav-item text-white">
+                  <a className="nav-link " href="DAY4">
                     DAY 4
                   </a>
                 </li>
-                <li class="nav-item text-white">
-                  <a class="nav-link " href="#">
+                <li className="nav-item text-white">
+                  <a className="nav-link " href="DAY5">
                     DAY 5
                   </a>
                 </li>
@@ -174,10 +174,10 @@ const Incoming = () => {
                   </p>
                 </div>
                 <div className="col-3 col-sm-3 ">
-                  <img
+                  <img alt="img_alt_text"
                     className="img-fluid"
                     src={process.env.PUBLIC_URL + "/image/image 10.png"}
-                    alt=""
+                    
                   />
                 </div>
               </div>
@@ -188,14 +188,14 @@ const Incoming = () => {
               <div className="col-sm-6  text-color">
                 <h3 className="">INDIVIDUAL PARTICIPATION FEES</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>ON A 2 PAX BASIS</p>
                 </div>
               </div>
               <div className="col-sm-6">
                 <h3>BASIC FEE - EURO 290</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>
                     The fee includes : nr. 4 nights half board in a double /
                     twin room; medical / baggage insurance.
@@ -208,7 +208,7 @@ const Incoming = () => {
               <div className="col-sm-6 text-color ">
                 <h3 className="">The rates do not include</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>
                     Meals not mentioned, drinks at the meals; admissions where
                     not specified and anything not mentioned under the heading
@@ -219,7 +219,7 @@ const Incoming = () => {
               <div className="col-sm-6">
                 <h3>SILVER FEE - EURO 410</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>
                     The fee includes : nr. 4 nights half board in a double /
                     twin room; medical / baggage insurance.
@@ -232,7 +232,7 @@ const Incoming = () => {
               <div className="col-sm-6 text-color">
                 <h3 className="">On request</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>
                     Single room supplement Optional insurance against
                     cancellation penalties
@@ -242,7 +242,7 @@ const Incoming = () => {
               <div className="col-sm-6">
                 <h3>GOLD FEE - EURO 550</h3>
                 <div className="d-flex">
-                  <i class="bi bi-check ptcolor"></i>
+                  <i className="bi bi-check ptcolor"></i>
                   <p>
                     The fee includes : nr. 4 nights half board in a double /
                     twin room; the guided tour of the city of Ancona (entrance
