@@ -4,9 +4,6 @@ const Footer = () => {
   return (
     <div className='p-4' style={{background:"#00A6DB"}}>
 <h1 className='font-family  text-left h1 p-3 btncolor m-0' >We look forward to welcoming you!</h1>
-
-
-
 <div className='row '>
 <div className='col-sm-5 text-center p-2 '> 
 <div className='d-flex' >
