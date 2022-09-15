@@ -1,10 +1,6 @@
 .App {
   text-align: center;
 }
-
-
-
-
 *{
   font-family: 'Inter', sans-serif;
 font-style: normal;
@@ -14,10 +10,7 @@ line-height: 32px;
 .hf-50{
   font-size: 50px !important;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -25,11 +18,7 @@ line-height: 32px;
   transform: translate(-50%, -50%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #282c34;
@@ -60,7 +49,9 @@ line-height: 32px;
   border: 3px solid green;
   padding: 10px;
 }
-
+.pr-xl-2{
+padding-right: 0.5rem !important;
+}
 
 .listynone{
   list-style: none;
@@ -164,6 +155,7 @@ line-height: 32px;
   font-size: 2rem;
 }
 .bg-nav1{
+  background-color: #fff !important;
   background: #F5F5F5;
 }
 .dcenter{
@@ -182,9 +174,7 @@ align-items: center;
 .f-left{
   float: left;
 }
-.card1{
-  width:24rem;
-}
+
 .navtb{
   padding-top: 0% !important;
   padding-bottom: 0% !important;
@@ -269,21 +259,7 @@ img {
 .rRespdiv{
   padding: 1.5rem;
   }
-  .rResph3{
-
-  }
-
-  .rRespRow{
-
-  }
-
-
-  /* @media (min-width: 576px){
-  .homeSlideCard-resp{
-      flex: 0 0 auto;
-      width: 33%;
-  }} */
-
+ 
   @media (min-width: 500px) and (max-width: 600px) {
   .centered8 {
     position: absolute;
@@ -293,12 +269,7 @@ img {
   
   } 
 
-  /* .achievement-label{
-
-  } */
-   /* .homeSlideCard-resp{
-    width: 83%;
-  }  */
+ 
 
 }
 
@@ -374,30 +345,14 @@ img {
   font-weight: 600;
   font-size: 2rem;
 }
-.rResp{
 
-
-}
-.rResph3{
-
-}
-.rResph1{
-  
-}
 .rRespdiv{
 padding: 1rem;
 }
-.rRespRow{
-
-}
-
- .homeSlideCard-resp{
+.homeSlideCard-resp{
   width: 49%;
 } 
 }
-
-
-
 .fonSioc{
   font-size: 12vh;
 }

@@ -5,7 +5,7 @@ import Footer from './Footer';
 import Home from './Home';
 import Product from './Product';
 import Offer from './Offer';
-import Aboutus from './Aboutus';
+import Aboutus from './Component/Aboutus';
 import Incoming from './Incoming';
 import CrilumyDestination from './CrilumyDestination';
 import CrilumyPicture from './CrilumyPicture';
@@ -14,6 +14,7 @@ import Wedding from './Wedding';
 import Contact from './Contact'
 import CrilumyProduct from './CrilumyProduct';
 import IncomingNav from './IncomingNav';
+// import HomeSlide4Card from './Component/HomeSlide4Card';
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
       <Header/>
       <Routes>
       <Route path="/" element={<Home/>} />
+      {/* <Route path="/slide4card" element={<HomeSlide4Card/>} /> */}
       <Route path="/i" element={<IncomingNav/>} />
       <Route path="/offer" element={<Offer/>} />
       <Route path="/product" element={<Product/>} />

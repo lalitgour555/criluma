@@ -4,7 +4,7 @@ const HomeSlideCard = () => {
   return (
     <div className="container pt-5 bg-inconme">
      <div className=' p-2'>
-    <h1 className='h1'>POPULAR DESTINATIONS</h1>
+    <h1 className='h1'>POPULAR DESTINATIONS </h1>
     <p>Browse through our most popular tours!</p>
 </div>
 <div className="progress d-inline-flex proghe" style={{width:"rem"}}>

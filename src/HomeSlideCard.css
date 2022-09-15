@@ -16,7 +16,8 @@
   transform: rotateZ(-45deg);
   top: 0;
   left: 0;
-  transform-origin: 52px 101px;
+  transform-origin: -33px 75px;
+  /* transform-origin: 52px 101px; */
   text-align: center;
   line-height: 16px;
 }

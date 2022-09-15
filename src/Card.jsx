@@ -1,6 +1,6 @@
 import React from 'react'
 import './Card.css';
-import GallaryCard from './GallaryCard';
+import HomeSlide4Card from './HomeSlide4Card';
 import HomeSlideCard from "./HomeSlideCard"
 
 const Card = () => {
@@ -15,7 +15,7 @@ const Card = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
        
             <div className="d-flex ">
-                  <i className="bi bi-clock-history pwatchi "></i>
+                  <i className="bi bi-clock-history pr-xl-2 "></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -55,7 +55,7 @@ const Card = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
        
             <div className="d-flex  ">
-                  <i className="bi bi-clock-history pwatchi "></i>
+                  <i className="bi bi-clock-history pr-xl-2 "></i>
                   <p>duration </p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -95,7 +95,7 @@ const Card = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
        
             <div className="d-flex ">
-                  <i className="bi bi-clock-history pwatchi "></i>
+                  <i className="bi bi-clock-history pr-xl-2 "></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -134,15 +134,17 @@ const Card = () => {
         </div>
         <HomeSlideCard/>
 
-<div className='  p-2'>
-    <h1 className='h1'>POPULAR DESTINATIONS</h1>
+<div className='p-2 mt-4'>
+    <h1 className='h1'>POPULAR DESTINATIONS bgffff</h1>
     <p>Browse through our most popular tours!</p>
 </div>
+<div className="progress d-inline-flex proghe" style={{width:"rem"}}>
+  <div className="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">
+  <img  src={process.env.PUBLIC_URL + "/icons/r.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
 
-
-{/* Gallery part */}
-<GallaryCard/>
-
+  </div>
+</div>
+<HomeSlide4Card/>
 
 {/* <div className='p-4'>
     <div>
@@ -178,7 +180,7 @@ const Card = () => {
 </div>
 </div> */}
 
-<div className="row mx-auto my-auto justify-content-center">
+{/* <div className="row mx-auto my-auto justify-content-center">
   <div id="recipeCarousel" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner" role="listbox">
           <div className="carousel-item active">
@@ -249,7 +251,7 @@ const Card = () => {
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
       </a>
   </div>
-</div>
+</div> */}
 
 
 

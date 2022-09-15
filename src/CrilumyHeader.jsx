@@ -214,7 +214,7 @@ const CrilumyHeader = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
 
               <div className="d-flex ">
-                <i className="bi bi-clock-history "></i>
+                <i className="bi bi-clock-history pr-xl-2 "></i>
                 <p>duration</p>
                 <p>8 days 7 nights</p>
               </div>
@@ -258,7 +258,7 @@ const CrilumyHeader = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
 
               <div className="d-flex ">
-                <i className="bi bi-clock-history "></i>
+                <i className="bi bi-clock-history pr-xl-2 "></i>
                 <p>duration</p>
                 <p>8 days 7 nights</p>
               </div>
@@ -302,7 +302,7 @@ const CrilumyHeader = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
 
               <div className="d-flex ">
-                <i className="bi bi-clock-history "></i>
+                <i className="bi bi-clock-history pr-xl-2 "></i>
                 <p>duration</p>
                 <p>8 days 7 nights</p>
               </div>

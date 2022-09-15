@@ -3,10 +3,10 @@ import React from "react";
 const Offer = () => {
   return (
     <div>       
-          {/* <img alt="img_alt_text"
+           <img alt="img_alt_text"
             style={{ width: "100%", height: "" }}
             src={process.env.PUBLIC_URL + "/image/Exclusive.png"}
-          /> */}
+          /> 
         <div className="m-4">
       
 <div className="m-4">
@@ -31,7 +31,7 @@ const Offer = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
        
             <div className="d-flex ">
-                  <i className="bi bi-clock-history pwatchi"></i>
+                  <i className="bi bi-clock-history pr-xl-2"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -76,7 +76,7 @@ const Offer = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
            
             <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
+                  <i className="bi bi-clock-history  pr-xl-2"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -121,7 +121,7 @@ const Offer = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
            
             <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
+                  <i className="bi bi-clock-history  pr-xl-2"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -166,7 +166,7 @@ const Offer = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
        
             <div className="d-flex ">
-                  <i className="bi bi-clock-history pwatchi"></i>
+                  <i className="bi bi-clock-history pr-xl-2"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -211,7 +211,7 @@ const Offer = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
            
             <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
+                  <i className="bi bi-clock-history  pr-xl-2"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -256,7 +256,7 @@ const Offer = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
            
             <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
+                  <i className="bi bi-clock-history  pr-xl-2"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -301,7 +301,7 @@ const Offer = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
        
             <div className="d-flex ">
-                  <i className="bi bi-clock-history pwatchi"></i>
+                  <i className="bi bi-clock-history pr-xl-2"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -346,7 +346,7 @@ const Offer = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
            
             <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
+                  <i className="bi bi-clock-history  pr-xl-2"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -391,7 +391,7 @@ const Offer = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
            
             <div className="d-flex ">
-                  <i className="bi bi-clock-history  pwatchi"></i>
+                  <i className="bi bi-clock-history  pr-xl-2"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
@@ -436,7 +436,7 @@ const Offer = () => {
               <p className="text-left ">Isole Baleari - Spagna</p>
        
             <div className="d-flex ">
-                  <i className="bi bi-clock-history pwatchi"></i>
+                  <i className="bi bi-clock-history pr-xl-2"></i>
                   <p>duration</p>
                   <p>8 days 7 nights</p>
                 </div>
