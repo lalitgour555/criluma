@@ -1,17 +1,17 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Header from './Header';
-import Footer from './Footer';
+import Footer from './Component/Footer';
 import Home from './Home';
 import Product from './Product';
-import Offer from './Offer';
+import Offer from './Component/Offer';
 import Aboutus from './Component/Aboutus';
 import Incoming from './Incoming';
 import CrilumyDestination from './CrilumyDestination';
 import CrilumyPicture from './CrilumyPicture';
 import CrilumyFriends from './CrilumyFriends';
 import Wedding from './Wedding';
-import Contact from './Contact'
+import Contact from './Component/Contact'
 import CrilumyProduct from './CrilumyProduct';
 import IncomingNav from './IncomingNav';
 // import HomeSlide4Card from './Component/HomeSlide4Card';
