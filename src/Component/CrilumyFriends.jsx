@@ -5,7 +5,6 @@ const CrilumyFriends = () => {
   return (
     <div>
       <ImageHover/>  
-
       <div className="row  p-4">
      <div className="card text-color desbgcolor  ">
     </div> 
@@ -109,7 +108,6 @@ const CrilumyFriends = () => {
             </div>
           </div>
         </div> 
-
         <div className="col-sm-8 caResp container p-1 ">
       <div className="row   ">
   <div className="row px-sm-4  ">
@@ -148,12 +146,10 @@ const CrilumyFriends = () => {
     </div>
   
   </div> 
-    
      <div className="text-right ">
                 <button
                     type="button"
                     className="btn btn-primary btn-lg br-none pbcolor m-2"
-                     
                   >
                     SEARCH
                   </button>

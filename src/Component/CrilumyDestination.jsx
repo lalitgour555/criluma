@@ -1,15 +1,11 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import CrilumyHeader from "./CrilumyHeader";
 import ImageHover from "./ImageHover";
-
 const CrilumyDestination = () => {
   return (
     <div>
       <ImageHover />
-      <CrilumyHeader/>
-
-     
+      <CrilumyHeader />
       <div className="textl-right p-2">
         <div
           className=" rounded-circle pbcolor pt-1 float-right"

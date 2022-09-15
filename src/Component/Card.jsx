@@ -2,7 +2,6 @@ import React from 'react'
 import './Card.css';
 import HomeSlide4Card from './HomeSlide4Card';
 import HomeSlideCard from "./HomeSlideCard"
-
 const Card = () => {
   return (
     <div className='container'>
@@ -13,7 +12,6 @@ const Card = () => {
             <div className="card-body ">
               <h3 className="text-left m-0 h1 ">Torre del mar</h3>
               <p className="text-left ">Isole Baleari - Spagna</p>
-       
             <div className="d-flex ">
                   <i className="bi bi-clock-history pr-xl-2 "></i>
                   <p>duration</p>
@@ -145,128 +143,6 @@ const Card = () => {
   </div>
 </div>
 <HomeSlide4Card/>
-
-{/* <div className='p-4'>
-    <div>
-
-    <h5>GALLERY</h5>
-    <p>The world as told by our customers</p>
-    </div>
-
-    <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-    <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/c1.png'} />
-    </div>
-    <div className="carousel-item">
-    <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/c1.png'} />
-    </div>
-    <div className="carousel-item">
-    <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/c1.png'} />
-    </div>
-    <div className="carousel-item">
-    <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/c1.png'} />
-    </div>
-
-  </div>
-  <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="sr-only">Previous</span>
-  </a>
-  <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="sr-only">Next</span>
-  </a>
-</div>
-</div> */}
-
-{/* <div className="row mx-auto my-auto justify-content-center">
-  <div id="recipeCarousel" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner" role="listbox">
-          <div className="carousel-item active">
-              <div className="col-md-3">
-                  <div className="card">
-                      <div className="card-img">
-                      <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/c1.png'} />
-                      </div>
-                      <div className="card-img-overlay">Slide 1</div>
-                  </div>
-              </div>
-          </div>
-          <div className="carousel-item">
-              <div className="col-md-3">
-                  <div className="card">
-                      <div className="card-img">
-                      <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/c2.png'} />
-                      </div>
-                      <div className="card-img-overlay">Slide 2</div>
-                  </div>
-              </div>
-          </div>
-          <div className="carousel-item">
-              <div className="col-md-3">
-                  <div className="card">
-                      <div className="card-img">
-                      <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/c3.png'} />
-                      </div>
-                      <div className="card-img-overlay">Slide 3</div>
-                  </div>
-              </div>
-          </div>
-          <div className="carousel-item">
-              <div className="col-md-3">
-                  <div className="card">
-                      <div className="card-img">
-                          <img alt="img_alt_text" src="https://via.placeholder.com/500x400?text=4" className="img-fluid"/>
-                      </div>
-                      <div className="card-img-overlay">Slide 4</div>
-                  </div>
-              </div>
-          </div>
-          <div className="carousel-item">
-              <div className="col-md-3">
-                  <div className="card">
-                      <div className="card-img">
-                          <img alt="img_alt_text" src="https://via.placeholder.com/500x400/aba?text=5" className="img-fluid"/>
-                      </div>
-                      <div className="card-img-overlay">Slide 5</div>
-                  </div>
-              </div>
-          </div>
-          <div className="carousel-item">
-              <div className="col-md-3">
-                  <div className="card">
-                      <div className="card-img">
-                          <img alt="img_alt_text" src="https://via.placeholder.com/500x400/fc0?text=6"className="img-fluid"/>
-                      </div>
-                      <div className="card-img-overlay">Slide 6</div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <a className="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-      </a>
-      <a className="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-      </a>
-  </div>
-</div> */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </div>
   )

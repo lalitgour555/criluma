@@ -1,11 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
 const CrilumyDestinationCard = () => {
   return (
     <div>  <div className="card text-color b-none ">
     <div className="card-body p-0">
-    
 <div className=" m-3">
 <ul className="list-group text-left br-none">
   <li className="list-group-item pbcolor fs-4 text-center text-white text1">CRILUMY</li>

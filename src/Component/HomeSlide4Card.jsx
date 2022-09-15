@@ -18,9 +18,7 @@ const HomeSlide4Card = () => {
       </div>
     )}
     );
-        
-
-  return (
+          return (
     <div className='bg-color'>
 
 <Slider

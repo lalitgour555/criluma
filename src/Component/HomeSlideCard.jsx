@@ -10,7 +10,6 @@ const HomeSlideCard = () => {
 <div className="progress d-inline-flex proghe" style={{width:"rem"}}>
   <div className="progress-bar pbcolor  p-3" role="progressbar" aria-valuenow="0" aria-valuemin="0"  style={{width:"100%"}} aria-valuemax="">
   <img  src={process.env.PUBLIC_URL + "/icons/r.png"}  style={{width:"4.5rem"}}  alt="Cinque Terre"/>
-
   </div>
 </div>
      <div className="row  btncolor container">

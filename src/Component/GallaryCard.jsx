@@ -1,6 +1,5 @@
 import React from 'react'
 import './Gallarycard.css';
-
 const GallaryCard = () => {
   return (
     <div>
@@ -10,8 +9,6 @@ const GallaryCard = () => {
 
   </div>
 </div>
-
-
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -33,34 +30,6 @@ const GallaryCard = () => {
     <span className="sr-only">Next</span>
   </a>
 </div>
-
-{/* <div className="cards-wrapper">
-  <div className="card">
-  <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/c1.png'} />
-    <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" className="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-  <div className="card">
-  <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/c1.png'} />
-    <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" className="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-  <div className="card">
-  <img alt="img_alt_text" src={process.env.PUBLIC_URL + '/image/c1.png'} />
-    <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" className="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-</div> */}
-
     </div>
   )
 }
